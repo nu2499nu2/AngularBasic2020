@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularBasic2020';
+  title = 'Welcome To Angular Basic 2020';
+  i: number = 0;
+  showMessage() {
+    return this.title;
+  }
+  addCount() {
+    this.i++;
+  }
+  readData(value) {
+    console.log(value);
+  }
 }
