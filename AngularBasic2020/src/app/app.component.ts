@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Welcome To Angular Basic 2020';
   i: number = 0;
+  IsShow = false;
+  myName = 'Mr Paritas Thanakarn';
+  language = ['Visual C#', 'Visual C', 'Visual Basic', 'Mean Stack', 'Angular'];
   showMessage() {
     return this.title;
   }

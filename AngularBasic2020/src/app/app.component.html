@@ -2,6 +2,8 @@
 <h1>
   {{ showMessage() }}!
 </h1>
+<h3>{{ myName }}</h3>
+<ul><li *ngFor="let item of language">{{ item }}</li></ul>
 <p>ค่าของตัวแปร i : {{ i }}</p>
 <input type="text" #fullname><br />
 <button type="button" class="btn btn-primary" (click)="readData(fullname.value)">เพิ่มตัวแปร i </button>
